@@ -6,7 +6,7 @@ import CarouselProduct from "./carusel/product/CarouselProduct";
 import NavBar from "./navbar/NavBar";
 import Search from "./search/Search";
 import Checkout from "./checkout/Checkout";
-import ProductPage from "../page/product/ProductPage";
+import Product from "../page/product/Product";
 import Result from "./search/result/SearchResults";
 import ProductDetails from "../page/product/productDetail/ProductDetails";
 import ProductBadge from "../page/product/badge/ProductBadge";
@@ -21,7 +21,7 @@ export {
   NavBar,
   Search,
   Checkout,
-  ProductPage,
+  Product,
   Result,
   ProductBadge,
   ProductDetails,

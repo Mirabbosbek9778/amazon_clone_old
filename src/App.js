@@ -1,11 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {
-  NavBar,
-  Home,
-  ProductPage,
-  Checkout,
-  Result,
-} from "./components/index";
+import { NavBar, Home, Checkout, Result, Product } from "./components/index";
 
 const App = () => {
   return (
@@ -14,7 +8,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/search" element={<Result />} />
-        <Route path="/product/:id" element={<ProductPage />} />
+        <Route path="/product/:id" element={<Product />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="*" element={<h1>404 Error</h1>} />
       </Routes>

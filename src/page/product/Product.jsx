@@ -1,12 +1,12 @@
+import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { ProductDetails } from "../../components";
 import { GB_CURRENCY } from "../../utils/constants";
 import { callAPI } from "../../utils/CallApi";
 import { addToCart } from "../../redux/cartSlice";
 
-const ProductPage = () => {
+const Product = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [quantity, setQuantity] = useState("1");
@@ -94,4 +94,4 @@ const ProductPage = () => {
   );
 };
 
-export default ProductPage;
+export default Product;
