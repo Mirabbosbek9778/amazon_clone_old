@@ -1,13 +1,29 @@
-export { default as HomePage } from "./HomePage";
-export { default as Carousel } from "./Carousel";
-export { default as HomePageCard } from "./HomePageCard";
-export { default as CarouselCategory } from "./CarouselCategory";
-export { default as CarouselProduct } from "./CarouselProduct";
-export { default as NavBar } from "./NavBar";
-export { default as Search } from "./Search";
-export { default as Checkout } from "./Checkout";
-export { default as ProductPage } from "./ProductPage";
-export { default as SearchResults } from "./SearchResults";
-export { default as ProductDetails } from "./ProductDetails";
-export { default as ProductBadge } from "./ProductBadge";
-export { default as ProductRatings } from "./ProductRatings";
+import Home from "../page/home/Home";
+import Carusel from "./carusel/Carusel";
+import Card from "./cards/Card";
+import CarouselCategory from "./carusel/catagory/CarouselCategory";
+import CarouselProduct from "./carusel/product/CarouselProduct";
+import NavBar from "./navbar/NavBar";
+import Search from "./search/Search";
+import Checkout from "./checkout/Checkout";
+import ProductPage from "../page/product/ProductPage";
+import Result from "./search/result/SearchResults";
+import ProductDetails from "../page/product/productDetail/ProductDetails";
+import ProductBadge from "../page/product/badge/ProductBadge";
+import ProductRatings from "../page/product/Rating/ProductRatings";
+
+export {
+  Home,
+  Carusel,
+  Card,
+  CarouselCategory,
+  CarouselProduct,
+  NavBar,
+  Search,
+  Checkout,
+  ProductPage,
+  Result,
+  ProductBadge,
+  ProductDetails,
+  ProductRatings,
+};

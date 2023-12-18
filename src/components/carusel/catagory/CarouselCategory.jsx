@@ -1,12 +1,14 @@
+import React from "react";
+import { useNavigate, createSearchParams } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
-import { useNavigate, createSearchParams } from "react-router-dom";
 
 import "swiper/css";
 import "swiper/css/navigation";
 
 const CarouselCategory = () => {
   const navigate = useNavigate();
+
   const searchCategory = (category) => {
     navigate({
       pathname: "search",

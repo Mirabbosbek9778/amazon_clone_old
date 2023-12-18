@@ -1,10 +1,11 @@
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper";
+import { Navigation, Autoplay } from "swiper/core";
 
 import "swiper/css";
 import "swiper/css/navigation";
 
-const Carousel = () => {
+const Carusel = () => {
   return (
     <div className="h-[600px] bg-white">
       <Swiper
@@ -40,4 +41,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Carusel;

@@ -1,14 +1,15 @@
+import React from "react";
 import { ShoppingCartIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { Search } from "./";
+import { Search } from "../index";
 
 const NavBar = () => {
   const cart = useSelector((state) => state.cart.productsNumber);
+
   return (
     <header className="min-w-[1000px]">
       <div className="flex bg-amazonclone text-white h-[60px]">
-        {/* Left */}
         <div className="flex items-center m-4">
           <Link to={"/"}>
             <img
@@ -22,11 +23,9 @@ const NavBar = () => {
             <div className="text-sm xl:text-base font-bold">United Kingdom</div>
           </div>
         </div>
-        {/* Middle */}
         <div className="flex grow relative items-center">
           <Search />
         </div>
-        {/* Right */}
         <div className="flex items-center m-4">
           <div className="pr-4 pl-4">
             <div className="text-xs xl:text-sm">Hello, sign in</div>

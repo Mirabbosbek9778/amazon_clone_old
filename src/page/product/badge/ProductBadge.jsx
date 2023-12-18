@@ -1,3 +1,5 @@
+import React from "react";
+
 const ProductBadge = ({ badge }) => {
   if (badge === "choice") {
     return (
