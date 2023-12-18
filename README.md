@@ -18,7 +18,7 @@ Contains Carousel containing images and video:
 
 ### Nav Bar
 
-Complete with search box that offers suggestions as you type: 
+### Complete with search box that offers suggestions as you type
 
 ![NavBar](https://user-images.githubusercontent.com/17878339/230745497-4136d398-1991-4d96-a3ef-de7e6ca9977a.gif)
 
@@ -35,10 +35,6 @@ Complete with search box that offers suggestions as you type:
 Node 14.x Version
 
 ## Cloning the repository
-
-```shell
-git clone https://github.com/JonnyDavies/amazon-clone-frontend.git
-```
 
 ## Start the app
 
